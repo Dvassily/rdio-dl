@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "radiooooo-dl",
+    "version": "0.1",
+
+    "description": "Download music on radiooooo.",
+
+    "icons": {
+	"48": "icons/rdiodl-48.png"
+    },
+    
+    "permissions": [
+	"webRequest",
+	 "http://radiooooo.com/media-server/links/*"
+    ],
+
+    "background": {
+	"scripts": ["background.js"]
+    }
+}

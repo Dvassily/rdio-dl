@@ -1,0 +1,8 @@
+function logURL(requestDetails) {
+  console.log("Loading: " + requestDetails.url);
+}
+
+browser.webRequest.onBeforeRequest.addListener(
+  logURL,
+    {urls: ["http://radiooooo.com/", "http://*.radiooooo.com/media-server/links/*"]}
+);
