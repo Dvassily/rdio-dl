@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>radiooooo-dl@dvassily.net</em:id>
+    <em:version>0.1</em:version>
+    <em:type>2</em:type>
+    <em:creator>Dvassily</em:creator>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{0990bf1b-07cc-4651-988d-2e83b8cc2d35}</em:id>
+        <em:minVersion>24.0</em:minVersion>
+        <em:maxVersion>54.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <em:name>radiooooo-dl</em:name>
+    <em:description>Download music on radiooooo</em:description>
+    <em:creator>Dvassily</em:creator>
+    <em:homepageURL>https://github.com/Dvassily/rdio-dl</em:homepageURL>
+  </Description>      
+</RDF>
