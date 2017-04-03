@@ -12,7 +12,10 @@
     
     "permissions": [
 	"webRequest",
-	 "http://radiooooo.com/media-server/links/*"
+	"downloads",
+	"runtime",
+	"http://radiooooo.com/",
+	"http://radiooooo.com/media-server/links/*"
     ],
 
     "background": {
